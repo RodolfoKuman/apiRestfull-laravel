@@ -4,6 +4,7 @@ namespace App;
 
 use App\Buyer;
 use App\Product;
+use App\User;
 use Illuminate\Database\Eloquent\Model;
 
 class Transaction extends Model

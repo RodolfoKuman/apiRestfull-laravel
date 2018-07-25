@@ -2,6 +2,7 @@
 
 namespace App;
 use App\Product;
+use App\User;
 
 class Seller extends User
 {
