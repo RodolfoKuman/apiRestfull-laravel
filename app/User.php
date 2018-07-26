@@ -41,7 +41,7 @@ class User extends Authenticatable
         'verification_token',
     ];
 
-    public function esVericado()
+    public function esVerificado()
     {
       return $this->verified == User::USUARIO_VERIFICADO;
     }
