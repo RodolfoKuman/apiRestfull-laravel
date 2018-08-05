@@ -25,7 +25,7 @@ Route::resource('buyers','Buyer\BuyerController',['only' => ['index','show']]);
 
 //Categories
 
-Route::resource('categoriess','Category\CategoryController',['except' => ['create','edit']]);
+Route::resource('categories','Category\CategoryController',['except' => ['create','edit']]);
 
 //Products
 
